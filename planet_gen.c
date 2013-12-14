@@ -129,7 +129,7 @@ int print_moon(Moon p, int indent) {
 	
 	return 1;
 }
-int print_planet(Planet r) {
+int print_planet(Planet r, System s) {
 	printf("\t%s\n\t", r.name);
 	int q;
 	for (q = 0; q < strlen(r.name); q++) {
@@ -140,7 +140,7 @@ int print_planet(Planet r) {
 	printf("\tMass: %gkg\n", r.mass);
 	printf("\tRadius: %gkm\n", r.radius);
 	printf("\tDensity: %gkg/km^3\n", r.density);
-	printf("\tSOI: %gkm\n", (r.solar_distance)*(pow((r.mass / M), (2/5))));
+	printf("\tSOI: %gkm\n", (r.solar_distance)*(pow((r.mass / s.solar_mass), (2/5))));
 	printf("\tDistance from Sun: %gkm\n", r.solar_distance);
 	
 	printf("\tOrbital Period: %gs\n", r.orbital_period);
@@ -171,7 +171,7 @@ int print_system(System s) {
 	printf("Number of Moons: %d\n", s.num_moons);
 	printf("\n");
 	for (i = 0; i < s.num_planets; i++) {
-		print_planet(s.planets[i]);
+		print_planet(s.planets[i], s);
 	}
 	return 1;
 }
