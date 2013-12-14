@@ -11,11 +11,21 @@ typedef struct {
   float radius;
   float mass;
   float density;
+  char * name;
+  float distance;
+  float orbital_period;
+} Moon;
+                 
+typedef struct {
+  float radius;
+  float mass;
+  float density;
   char * desc;
   char * living;
   char name[500];
   float solar_distance;
   float orbital_period;
+  Moon moon[3];
 } Planet;
 
 char pre_name[500][500] = {"Plu", "Jup", "So", "Ea", "Ven", "Mer"};
@@ -28,6 +38,9 @@ char living[500][500] = {"infested by swamp rats", "overrun by bipeds"};
 
 Planet planets[500];
 
+                 Moon generate_moon(void) {
+                   
+                 
 Planet generate_planet(void) {
   Planet r;
   r.radius = rand()%7000 + 1000;
