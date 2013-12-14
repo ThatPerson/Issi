@@ -1,0 +1,733 @@
+The Solar System
+----------------
+Solar Mass: 1.53253e+29kg
+Number of Planets: 31
+Number of Moons: 36
+
+	Juprth
+	------
+	A swampy planet infested by swamp rats
+	Mass: 5.79928e+21kg
+	Radius: 772.778km
+	Density: 4e+12kg/km^3
+	SOI: 6.1e+10km
+	Distance from Sun: 6.1e+10km
+	Orbital Period: 9.36283e+11s
+	Speed: 0.409357km/s
+	Moons: 2
+
+		Titon
+		-----
+		Mass: 3.63635e+21kg
+		Radius: 728km
+		Density: 3e+12kg/km^3
+		Distance: 1.23512e+09km
+		Orbital Period: 1.38673e+13s
+		Speed: 0.000559623km/s
+
+		Moan
+		----
+		Mass: 5.66624e+20kg
+		Radius: 565km
+		Density: 1e+12kg/km^3
+		Distance: 2.40461e+07km
+		Orbital Period: 3.76702e+10s
+		Speed: 0.00401076km/s
+
+
+	Jupcur
+	------
+	A swampy planet overrun by bipeds
+	Mass: 2.44657e+22kg
+	Radius: 1159.17km
+	Density: 5e+12kg/km^3
+	SOI: 5.4e+10km
+	Distance from Sun: 5.4e+10km
+	Orbital Period: 7.79835e+11s
+	Speed: 0.435082km/s
+	Moons: 0
+
+
+	Merlar
+	------
+	A swampy planet overrun by bipeds
+	Mass: 8.25717e+22kg
+	Radius: 1738.75km
+	Density: 5e+12kg/km^3
+	SOI: 8.49e+15km
+	Distance from Sun: 8.49e+15km
+	Orbital Period: 4.86154e+19s
+	Speed: 0.001097km/s
+	Moons: 1
+
+		Miranan
+		-------
+		Mass: 9.82619e+21kg
+		Radius: 1014km
+		Density: 3e+12kg/km^3
+		Distance: 5.31946e+08km
+		Orbital Period: 1.03873e+12s
+		Speed: 0.00321769km/s
+
+
+	Pluus
+	-----
+	A swampy planet overrun by bipeds
+	Mass: 2.11384e+24kg
+	Radius: 6955km
+	Density: 2e+12kg/km^3
+	SOI: 5e+09km
+	Distance from Sun: 5e+09km
+	Orbital Period: 2.19719e+10s
+	Speed: 1.429824km/s
+	Moons: 0
+
+
+	Merto
+	-----
+	A marshland overrun by bipeds
+	Mass: 2.64229e+23kg
+	Radius: 3477.5km
+	Density: 2e+12kg/km^3
+	SOI: 7.06e+13km
+	Distance from Sun: 7.06e+13km
+	Orbital Period: 3.68654e+16s
+	Speed: 0.012033km/s
+	Moons: 2
+
+		Miranon
+		-------
+		Mass: 1.7375e+23kg
+		Radius: 3024km
+		Density: 2e+12kg/km^3
+		Distance: 1.87163e+09km
+		Orbital Period: 3.83226e+12s
+		Speed: 0.00306863km/s
+
+		Moon
+		----
+		Mass: 1.80181e+22kg
+		Radius: 1790km
+		Density: 1e+12kg/km^3
+		Distance: 2.02055e+09km
+		Orbital Period: 4.29864e+12s
+		Speed: 0.00295337km/s
+
+
+	Juplar
+	------
+	A swampy planet infested by swamp rats
+	Mass: 4.22767e+22kg
+	Radius: 1391km
+	Density: 5e+12kg/km^3
+	SOI: 9.05e+14km
+	Distance from Sun: 9.05e+14km
+	Orbital Period: 1.69194e+18s
+	Speed: 0.003361km/s
+	Moons: 1
+
+		Moda
+		----
+		Mass: 6.28437e+18kg
+		Radius: 126km
+		Density: 1e+12kg/km^3
+		Distance: 3.0248e+08km
+		Orbital Period: 6.22458e+11s
+		Speed: 0.00305327km/s
+
+
+	Merto
+	-----
+	A swampy planet infested by swamp rats
+	Mass: 7.24909e+21kg
+	Radius: 772.778km
+	Density: 5e+12kg/km^3
+	SOI: 5.1e+11km
+	Distance from Sun: 5.1e+11km
+	Orbital Period: 2.26343e+13s
+	Speed: 0.141574km/s
+	Moons: 1
+
+		Moda
+		----
+		Mass: 2.36219e+20kg
+		Radius: 335km
+		Density: 2e+12kg/km^3
+		Distance: 1.46151e+09km
+		Orbital Period: 1.59653e+13s
+		Speed: 0.00057518km/s
+
+
+	Solar
+	-----
+	A swampy planet infested by swamp rats
+	Mass: 1.65143e+22kg
+	Radius: 1738.75km
+	Density: 1e+12kg/km^3
+	SOI: 2.16e+10km
+	Distance from Sun: 2.16e+10km
+	Orbital Period: 1.97284e+11s
+	Speed: 0.687924km/s
+	Moons: 1
+
+		Miranon
+		-------
+		Mass: 3.44894e+20kg
+		Radius: 332km
+		Density: 3e+12kg/km^3
+		Distance: 1.56803e+09km
+		Orbital Period: 1.17549e+13s
+		Speed: 0.000838138km/s
+
+
+	Eacur
+	-----
+	A marshland overrun by bipeds
+	Mass: 3.96344e+23kg
+	Radius: 3477.5km
+	Density: 3e+12kg/km^3
+	SOI: 7.11e+07km
+	Distance from Sun: 7.11e+07km
+	Orbital Period: 3.72578e+07s
+	Speed: 11.990375km/s
+	Moons: 2
+
+		Miranan
+		-------
+		Mass: 1.00977e+21kg
+		Radius: 685km
+		Density: 1e+12kg/km^3
+		Distance: 1.35068e+07km
+		Orbital Period: 1.91827e+09s
+		Speed: 0.0442408km/s
+
+		Miranda
+		-------
+		Mass: 3.26531e+20kg
+		Radius: 326km
+		Density: 3e+12kg/km^3
+		Distance: 3.5916e+07km
+		Orbital Period: 8.31787e+09s
+		Speed: 0.0271304km/s
+
+
+	Soto
+	----
+	A marshland infested by swamp rats
+	Mass: 1.5407e+22kg
+	Radius: 993.571km
+	Density: 5e+12kg/km^3
+	SOI: 6.87e+07km
+	Distance from Sun: 6.87e+07km
+	Orbital Period: 3.53873e+07s
+	Speed: 12.198015km/s
+	Moons: 2
+
+		Titda
+		-----
+		Mass: 2.24472e+21kg
+		Radius: 894km
+		Density: 1e+12kg/km^3
+		Distance: 3.93542e+07km
+		Orbital Period: 4.83889e+10s
+		Speed: 0.00511006km/s
+
+		Moan
+		----
+		Mass: 3.04828e+18kg
+		Radius: 99km
+		Density: 1e+12kg/km^3
+		Distance: 3.31933e+07km
+		Orbital Period: 3.7483e+10s
+		Speed: 0.00556412km/s
+
+
+	Eato
+	----
+	A marshland overrun by bipeds
+	Mass: 1.46794e+22kg
+	Radius: 1159.17km
+	Density: 3e+12kg/km^3
+	SOI: 9.71e+14km
+	Distance from Sun: 9.71e+14km
+	Orbital Period: 1.88036e+18s
+	Speed: 0.003245km/s
+	Moons: 1
+
+		Titda
+		-----
+		Mass: 4.47255e+21kg
+		Radius: 780km
+		Density: 3e+12kg/km^3
+		Distance: 7.74497e+08km
+		Orbital Period: 4.32805e+12s
+		Speed: 0.00112437km/s
+
+
+	Merrth
+	------
+	A swampy planet overrun by bipeds
+	Mass: 4.89314e+21kg
+	Radius: 1159.17km
+	Density: 1e+12kg/km^3
+	SOI: 8.79e+07km
+	Distance from Sun: 8.79e+07km
+	Orbital Period: 5.12148e+07s
+	Speed: 10.783833km/s
+	Moons: 2
+
+		Titan
+		-----
+		Mass: 1.01007e+21kg
+		Radius: 475km
+		Density: 3e+12kg/km^3
+		Distance: 1.41457e+07km
+		Orbital Period: 1.85038e+10s
+		Speed: 0.00480335km/s
+
+		Titda
+		-----
+		Mass: 1.35269e+22kg
+		Radius: 1128km
+		Density: 3e+12kg/km^3
+		Distance: 4.03458e+07km
+		Orbital Period: 8.91292e+10s
+		Speed: 0.00284418km/s
+
+
+	Eacur
+	-----
+	A marshland infested by swamp rats
+	Mass: 7.82902e+22kg
+	Radius: 2318.33km
+	Density: 2e+12kg/km^3
+	SOI: 1.61e+07km
+	Distance from Sun: 1.61e+07km
+	Orbital Period: 4.01468e+06s
+	Speed: 25.197337km/s
+	Moons: 0
+
+
+	Juprth
+	------
+	A marshland infested by swamp rats
+	Mass: 1.5658e+23kg
+	Radius: 2318.33km
+	Density: 4e+12kg/km^3
+	SOI: 5.72e+13km
+	Distance from Sun: 5.72e+13km
+	Orbital Period: 2.68848e+16s
+	Speed: 0.013368km/s
+	Moons: 0
+
+
+	Socur
+	-----
+	A marshland infested by swamp rats
+	Mass: 1.23256e+22kg
+	Radius: 993.571km
+	Density: 4e+12kg/km^3
+	SOI: 9e+14km
+	Distance from Sun: 9e+14km
+	Orbital Period: 1.67794e+18s
+	Speed: 0.003370km/s
+	Moons: 1
+
+		Miranon
+		-------
+		Mass: 2.78734e+20kg
+		Radius: 354km
+		Density: 2e+12kg/km^3
+		Distance: 3.45998e+08km
+		Orbital Period: 1.41034e+12s
+		Speed: 0.00154145km/s
+
+
+	Pluiter
+	-------
+	A swampy planet overrun by bipeds
+	Mass: infkg
+	Radius: infkm
+	Density: 3e+12kg/km^3
+	SOI: 6.43e+12km
+	Distance from Sun: 6.43e+12km
+	Orbital Period: 1.01328e+15s
+	Speed: 0.039871km/s
+	Moons: 0
+
+
+	Mercur
+	------
+	A swampy planet overrun by bipeds
+	Mass: 5.28459e+23kg
+	Radius: 3477.5km
+	Density: 4e+12kg/km^3
+	SOI: 8.81e+12km
+	Distance from Sun: 8.81e+12km
+	Orbital Period: 1.62509e+15s
+	Speed: 0.034063km/s
+	Moons: 1
+
+		Titan
+		-----
+		Mass: 1.02366e+23kg
+		Radius: 3194km
+		Density: 1e+12kg/km^3
+		Distance: 2.14513e+09km
+		Orbital Period: 3.32501e+12s
+		Speed: 0.0040536km/s
+
+
+	Venrth
+	------
+	A marshland infested by swamp rats
+	Mass: 1.65143e+22kg
+	Radius: 1738.75km
+	Density: 1e+12kg/km^3
+	SOI: 8.7e+13km
+	Distance from Sun: 8.7e+13km
+	Orbital Period: 5.04303e+16s
+	Speed: 0.010839km/s
+	Moons: 2
+
+		Miranda
+		-------
+		Mass: 5.25539e+20kg
+		Radius: 551km
+		Density: 1e+12kg/km^3
+		Distance: 6.68213e+08km
+		Orbital Period: 3.27008e+12s
+		Speed: 0.00128391km/s
+
+		Moda
+		----
+		Mass: 1.26759e+22kg
+		Radius: 1592km
+		Density: 1e+12kg/km^3
+		Distance: 6.51653e+08km
+		Orbital Period: 3.14928e+12s
+		Speed: 0.00130013km/s
+
+
+	Plucur
+	------
+	A marshland overrun by bipeds
+	Mass: infkg
+	Radius: infkm
+	Density: 2e+12kg/km^3
+	SOI: 6.83e+10km
+	Distance from Sun: 6.83e+10km
+	Orbital Period: 1.10929e+12s
+	Speed: 0.386863km/s
+	Moons: 1
+
+		Miranan
+		-------
+		Mass: infkg
+		Radius: 1.11604e+09km
+		Density: 1e+12kg/km^3
+		Distance: 1.62011e+09km
+		Orbital Period: 0s
+		Speed: infkm/s
+
+
+	Juplar
+	------
+	A swampy planet overrun by bipeds
+	Mass: 1.5658e+23kg
+	Radius: 2318.33km
+	Density: 4e+12kg/km^3
+	SOI: 7.67e+09km
+	Distance from Sun: 7.67e+09km
+	Orbital Period: 4.17451e+10s
+	Speed: 1.154436km/s
+	Moons: 1
+
+		Moan
+		----
+		Mass: 6.04517e+22kg
+		Radius: 1858km
+		Density: 3e+12kg/km^3
+		Distance: 1.98223e+09km
+		Orbital Period: 5.42598e+12s
+		Speed: 0.00229538km/s
+
+
+	Eacur
+	-----
+	A swampy planet infested by swamp rats
+	Mass: 4.9543e+22kg
+	Radius: 1738.75km
+	Density: 3e+12kg/km^3
+	SOI: 9.16e+10km
+	Distance from Sun: 9.16e+10km
+	Orbital Period: 1.72288e+12s
+	Speed: 0.334056km/s
+	Moons: 1
+
+		Moon
+		----
+		Mass: 9.73694e+21kg
+		Radius: 1458km
+		Density: 1e+12kg/km^3
+		Distance: 5.72853e+08km
+		Orbital Period: 1.49862e+12s
+		Speed: 0.00240178km/s
+
+
+	Merus
+	-----
+	A swampy planet infested by swamp rats
+	Mass: 1.23256e+22kg
+	Radius: 993.571km
+	Density: 4e+12kg/km^3
+	SOI: 6.5e+13km
+	Distance from Sun: 6.5e+13km
+	Orbital Period: 3.25673e+16s
+	Speed: 0.012540km/s
+	Moons: 1
+
+		Titon
+		-----
+		Mass: 1.44731e+21kg
+		Radius: 613km
+		Density: 2e+12kg/km^3
+		Distance: 1.68458e+09km
+		Orbital Period: 1.51513e+13s
+		Speed: 0.000698588km/s
+
+
+	Jupcur
+	------
+	A swampy planet infested by swamp rats
+	Mass: 9.78628e+21kg
+	Radius: 1159.17km
+	Density: 2e+12kg/km^3
+	SOI: 7.75e+12km
+	Distance from Sun: 7.75e+12km
+	Orbital Period: 1.3408e+15s
+	Speed: 0.036318km/s
+	Moons: 2
+
+		Titon
+		-----
+		Mass: 8.68587e+16kg
+		Radius: 24km
+		Density: 2e+12kg/km^3
+		Distance: 1.77626e+09km
+		Orbital Period: 1.84107e+13s
+		Speed: 0.000606203km/s
+
+		Titon
+		-----
+		Mass: 3.5399e+20kg
+		Radius: 483km
+		Density: 1e+12kg/km^3
+		Distance: 1.23448e+09km
+		Orbital Period: 1.06669e+13s
+		Speed: 0.000727158km/s
+
+
+	Meriter
+	-------
+	A marshland overrun by bipeds
+	Mass: 4.89314e+21kg
+	Radius: 1159.17km
+	Density: 1e+12kg/km^3
+	SOI: 8.38e+13km
+	Distance from Sun: 8.38e+13km
+	Orbital Period: 4.76736e+16s
+	Speed: 0.011044km/s
+	Moons: 0
+
+
+	Juplar
+	------
+	A marshland overrun by bipeds
+	Mass: 1.5407e+22kg
+	Radius: 993.571km
+	Density: 5e+12kg/km^3
+	SOI: 7.19e+12km
+	Distance from Sun: 7.19e+12km
+	Orbital Period: 1.19813e+15s
+	Speed: 0.037705km/s
+	Moons: 0
+
+
+	Earth
+	-----
+	A swampy planet overrun by bipeds
+	Mass: 4.89314e+21kg
+	Radius: 1159.17km
+	Density: 1e+12kg/km^3
+	SOI: 5.81e+09km
+	Distance from Sun: 5.81e+09km
+	Orbital Period: 2.75218e+10s
+	Speed: 1.326415km/s
+	Moons: 2
+
+		Titan
+		-----
+		Mass: 7.8653e+20kg
+		Radius: 437km
+		Density: 3e+12kg/km^3
+		Distance: 1.62284e+09km
+		Orbital Period: 2.27372e+13s
+		Speed: 0.000448455km/s
+
+		Moan
+		----
+		Mass: 1.01198e+22kg
+		Radius: 1024km
+		Density: 3e+12kg/km^3
+		Distance: 4.90553e+08km
+		Orbital Period: 3.77878e+12s
+		Speed: 0.000815669km/s
+
+
+	Veniter
+	-------
+	A marshland overrun by bipeds
+	Mass: 6.60574e+22kg
+	Radius: 1738.75km
+	Density: 4e+12kg/km^3
+	SOI: 6.67e+14km
+	Distance from Sun: 6.67e+14km
+	Orbital Period: 1.07054e+18s
+	Speed: 0.003915km/s
+	Moons: 2
+
+		Miranda
+		-------
+		Mass: 2.70609e+22kg
+		Radius: 1627km
+		Density: 2e+12kg/km^3
+		Distance: 1.17997e+09km
+		Orbital Period: 3.83673e+12s
+		Speed: 0.00193236km/s
+
+		Titan
+		-----
+		Mass: 8.75668e+21kg
+		Radius: 1117km
+		Density: 2e+12kg/km^3
+		Distance: 2.03055e+09km
+		Orbital Period: 8.66118e+12s
+		Speed: 0.00147305km/s
+
+
+	Socur
+	-----
+	A marshland overrun by bipeds
+	Mass: 7.24909e+21kg
+	Radius: 772.778km
+	Density: 5e+12kg/km^3
+	SOI: 2.23e+14km
+	Distance from Sun: 2.23e+14km
+	Orbital Period: 2.06952e+17s
+	Speed: 0.006770km/s
+	Moons: 1
+
+		Titan
+		-----
+		Mass: 8.98005e+19kg
+		Radius: 212km
+		Density: 3e+12kg/km^3
+		Distance: 5.87639e+08km
+		Orbital Period: 4.07044e+12s
+		Speed: 0.000907088km/s
+
+
+	Eaus
+	----
+	A swampy planet overrun by bipeds
+	Mass: 5.28459e+23kg
+	Radius: 3477.5km
+	Density: 4e+12kg/km^3
+	SOI: 8.9e+11km
+	Distance from Sun: 8.9e+11km
+	Orbital Period: 5.21792e+13s
+	Speed: 0.107170km/s
+	Moons: 2
+
+		Moda
+		----
+		Mass: 7.71765e+22kg
+		Radius: 2907km
+		Density: 1e+12kg/km^3
+		Distance: 1.04639e+09km
+		Orbital Period: 1.1328e+12s
+		Speed: 0.00580392km/s
+
+		Titan
+		-----
+		Mass: 4.39722e+17kg
+		Radius: 36km
+		Density: 3e+12kg/km^3
+		Distance: 2.06779e+09km
+		Orbital Period: 3.14681e+12s
+		Speed: 0.00412872km/s
+
+
+	Pluiter
+	-------
+	A marshland overrun by bipeds
+	Mass: 6.19288e+21kg
+	Radius: 869.375km
+	Density: 3e+12kg/km^3
+	SOI: 2.8e+10km
+	Distance from Sun: 2.8e+10km
+	Orbital Period: 2.91172e+11s
+	Speed: 0.604211km/s
+	Moons: 2
+
+		Titda
+		-----
+		Mass: 1.75122e+20kg
+		Radius: 382km
+		Density: 1e+12kg/km^3
+		Distance: 1.32461e+09km
+		Orbital Period: 1.4904e+13s
+		Speed: 0.000558425km/s
+
+		Titan
+		-----
+		Mass: 7.42729e+19kg
+		Radius: 199km
+		Density: 3e+12kg/km^3
+		Distance: 1.32429e+09km
+		Orbital Period: 1.48986e+13s
+		Speed: 0.000558492km/s
+
+
+	Eato
+	----
+	A marshland overrun by bipeds
+	Mass: 1.95726e+23kg
+	Radius: 2318.33km
+	Density: 5e+12kg/km^3
+	SOI: 3.2e+14km
+	Distance from Sun: 3.2e+14km
+	Orbital Period: 3.55744e+17s
+	Speed: 0.005652km/s
+	Moons: 2
+
+		Titda
+		-----
+		Mass: 1.9858e+22kg
+		Radius: 1282km
+		Density: 3e+12kg/km^3
+		Distance: 1.94468e+09km
+		Orbital Period: 4.7159e+12s
+		Speed: 0.00259097km/s
+
+		Miranda
+		-------
+		Mass: 2.01546e+21kg
+		Radius: 598km
+		Density: 3e+12kg/km^3
+		Distance: 1.24992e+09km
+		Orbital Period: 2.43006e+12s
+		Speed: 0.00323181km/s
+
+
