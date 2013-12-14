@@ -100,7 +100,7 @@ int print_moon(Moon p, int indent) {
 	printf("\tDensity: %gkg/m^3\n", p.density);
 	printf("\tDistance: %gkm\n", p.distance);
 	printf("\tOrbital Period: %gs\n", p.orbital_period);
-	printf("\tSpeed: gkm/s\n", (M_PI*(2*p.distance))/p.orbital_period);
+	printf("\tSpeed: %gkm/s\n", (M_PI*(2*p.distance))/p.orbital_period);
 	
 	return 1;
 }
