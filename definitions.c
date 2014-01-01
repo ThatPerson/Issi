@@ -10,6 +10,7 @@ typedef struct {
 	char name[500];
 	float distance;
 	float orbital_period;
+	float orbit_travelled;
 } Moon;
 								 
 typedef struct {
@@ -24,6 +25,7 @@ typedef struct {
 	float orbit_travelled;
 	Moon moon[3];
 	int moon_number;
+	float total_mass;
 } Planet;
 
 typedef struct {

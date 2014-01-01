@@ -37,7 +37,7 @@ Vector planetary_effect (Planet x, Planet y) {
 	 
 	float r = (a*sin(C))/sin(A);
 	 
-	l.value = (G*x.mass*y.mass)/(pow(r, 2));
+	l.value = (G*x.mass*y.total_mass)/(pow(r, 2));
  
 	/*
 	 * We need to normalise A so it is going anticlockwise around from the sun to the sun. This is done because A can be 
@@ -51,3 +51,43 @@ Vector planetary_effect (Planet x, Planet y) {
 	
 	return l;
 }
+
+Vector total_grav(Planet a, System s, float time) {
+	int i, q;
+	Vector total_vector;
+	/* 
+	 * Because the angle of the vector is going anticlockwise from the sun, it goes to show that the angle of the effect
+	 * from the sun must be at 0 degrees. We can use the standard formula to hence work out the effect from the sun on 
+	 * the planet.
+	 */
+	total_vector.angle = 0;
+	total_vector.value = (G*a.mass*s.solar_mass)/(pow(a.solar_distance, 2));
+	/*
+	 * We loop over all the planets and run the corresponding functions to work out the gravitational effect. We do not
+	 * do this for the moons, as they are taken as the total_mass of the planet as it is unlikely that they will cause
+	 * too much effect due to their close proximity to the other planet.
+	 */
+	for (i = 0; i < s.num_planets; i++) {
+		
+		total_vector = balance_vector(total_vector, planetary_effect(a, s.planets[i]));
+	}
+	/*
+	 * The planet will not be affecting itself, unless it were somebody on the surface. Because of this, we can ignore
+	 * this until we get to working out surface gravity. Despite this, the moons of the planet will affect it, so we
+	 * do these here.
+	 */
+	for (i = 0; i < a.moon_number; i++) {
+		/*
+		 * We calculate these moons much like the other ones, only it is much easier; at the beginning, all moons are
+		 * in the SOI in a like parallel to the sun. Because of this, we just need to work out the angle you have 
+		 * changed, and then you can calculate the angle from the sun to use with balance_vector.
+		 */
+		Vector l;
+		l.angle = (a.moon[i].orbit_travelled / a.moon[i].orbital_period) * 360;
+		l.angle = 180 - l.angle;
+		l.value = (G * a.mass * a.moon[i].mass) / (pow(a.moon[i].distance, 2));
+		total_vector = balance_vector(total_vector, l);
+	}
+	return total_vector;
+}
+

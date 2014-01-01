@@ -38,6 +38,7 @@ Moon generate_moon(Planet p, System *s) {
 	float t_soi = (p.solar_distance)*(pow((p.mass / s->solar_mass), (2/5)));
 	r.distance = rand()%((int)t_soi-70) + 70;
 	r.orbital_period = (2*M_PI*sqrt((pow(r.distance*1000, 3))/(G*p.mass)));
+	r.orbit_travelled = rand()%((int)r.orbital_period);
 	s->num_moons++;
 	//s->total_mass += r.mass;
 	return r; 
@@ -62,8 +63,9 @@ Planet generate_planet(System *s) {
 	r.living = living[rand()%living_types];
 	
 	r.orbital_period = (2*M_PI*sqrt((pow(r.solar_distance*1000, 3))/(G*s->solar_mass))); // In Seconds
+	r.orbit_travelled = rand()%((int)r.orbital_period);
 	//s->total_mass += r.mass;
-	
+	r.total_mass = r.mass;
 	r.moon_number = rand()%3;
 	if (r.mass < 1000) 
 		r.moon_number = 0;
@@ -71,6 +73,7 @@ Planet generate_planet(System *s) {
 	int i;
 	for (i = 0; i < r.moon_number; i++) {
 		r.moon[i] = generate_moon(r, s);
+		r.total_mass = r.total_mass + r.moon[i].mass;
 	}
 	
 	return r;
