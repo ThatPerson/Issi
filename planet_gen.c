@@ -1,52 +1,5 @@
-#include <stdio.h>
-#include <math.h>
-#include <stdlib.h>
-#include <string.h>
-#include <time.h>
 
 
-#define G 6.67*pow(10, -11)
-#define M 1.989*(pow(10,30))
-#define R 695500
-
-typedef struct {
-	float radius;
-	float mass;
-	float density;
-	char name[500];
-	float distance;
-	float orbital_period;
-} Moon;
-								 
-typedef struct {
-	float radius;
-	float mass;
-	float density;
-	char * desc;
-	char * living;
-	char name[500];
-	float solar_distance;
-	float orbital_period;
-	float orbit_travelled;
-	Moon moon[3];
-	int moon_number;
-} Planet;
-
-typedef struct {
-	Planet planets[500];
-	char name[500];
-	int num_planets;
-	int num_moons;
-	float solar_mass;
-	long long total_mass;
-	float radius;
-	int soi;
-} System;
-
-typedef struct {
-	float angle;
-	float value;
-} Vector;
 
 char pre_name[500][500] = {"Plu", "Jup", "So", "Ea", "Ven", "Mer"};
 char suc_name[500][500] = {"to", "iter", "lar", "rth", "us", "cur"};
@@ -65,59 +18,8 @@ int sol_name_types = 4;
 
 System systeml;
 
-#include "parsi_module.c"
 
-Vector planetary_effect (Planet x, Planet y) {
-	Vector l;
-	float b = x.solar_distance;
-	float a = y.solar_distance;
-	float x_dof = (x.orbit_travelled / x.orbital_period) * 360;
-	/*
-	 * This while loop is here so if a planet is in its second orbit (ie, you have run the simulation for > orbital_period
-	 * it will still be able to work. This should not be a problem (the code which increments the orbit travelled _should_
-	 * reset it, but this is just to prove that there is no error here
-	 */
-	while (x_dof > 360) {
-		x_dof -= 360;
-	}
-	float y_dof = (y.orbit_travelled / y.orbital_period) * 360;
-	// See above
-	while (y_dof > 360) {
-		y_dof -= 360;
-	}
-	float C = y_dof - x_dof;
-	
-	/*
-	 * if C > 0 then y is ahead of x, else x is ahead of y. Because it is only used in trignometric operators I see no need
-	 * to absolute it, as ((cos(90))-(cos(-90)) = 0). It can therefore be used to tell us which direction the affect works,
-	 * and be used to work out the eventual Vector angle.
-	 */
-	float A = asin((a*sin(C)) / sqrt((pow(a, 2)) + (pow(b, 2)) - (2*a*b*cos(C))));
-	
-	/*
-	 * Now we start to work out the actual effect on the planet. This is done using the relationship F = GMm/r^2, in order
-	 * to get the effect of the action. To do this, we need to use some trig to work out the distance between x and y. We
-	 * can use the same relationship as with the other one, because r = (a*sin(C))/sin(A) would give the distance where
-	 * a is the distance to y, C is.... well, C, and A is the calculated angle. This gives us r to put into the above 
-	 * formula
-	 */
-	 
-	float r = (a*sin(C))/sin(A);
-	 
-	l.value = (G*x.mass*y.mass)/(pow(r, 2));
- 
-	/*
-	 * We need to normalise A so it is going anticlockwise around from the sun to the sun. This is done because A can be 
-	 * the same value on either side, and it is needed to work out the eventual vector from all planets combined.
-	 */
-	
-	if (C < 0)
-		A += 180;
-		
-	l.angle = A;
-	
-	return l;
-}
+
 
 Moon generate_moon(Planet p, System *s) {
 	Moon r;
@@ -252,13 +154,4 @@ System generate_system(int count) {
 	return s;
 }
 
-int main(int argc, char * argv[]) {
-	srand(time(NULL));
-	if (argc == 2) {
-		int count = atoi(argv[1]);
-		systeml = generate_system(count);
-		print_system(systeml);
 
-	}
-	return 1;
-}
