@@ -25,7 +25,7 @@ Moon generate_moon(Planet p, System *s) {
 	Moon r;
 	//int l = (int)((p.radius/4));
 	//r.radius = rand()%((int)(p.radius/4));
-	r.radius = rand()%((int)(p.radius));
+	r.radius = rand()%((p.radius)/2);
 	float masskg = ((rand()%3)+1)*(pow(10, 12));
 	r.density = masskg;
 	float area = 4/3*M_PI*(pow(r.radius, 3));
@@ -39,6 +39,7 @@ Moon generate_moon(Planet p, System *s) {
 	r.distance = rand()%((int)t_soi-70) + 70;
 	r.orbital_period = (2*M_PI*sqrt((pow(r.distance*1000, 3))/(G*p.mass)));
 	r.orbit_travelled = rand()%((int)r.orbital_period);
+	//r.orbit_travelled = 20;
 	s->num_moons++;
 	//s->total_mass += r.mass;
 	return r; 
@@ -52,9 +53,10 @@ Planet generate_planet(System *s) {
 	/*We do not calculate the SOI here as there are no other objects which could affect the orbit, so it just orbits
 	 * the sun no matter the distance.*/
 	r.solar_distance = ((rand()%1000)+1) * (pow(10, rand()%10+5));
-	
-	r.radius = s->radius/(100*(rand()%10));
-	
+	int z = rand()%20;
+	int l = R;
+	r.radius = (R/(100))*(rand()%10)+100;
+	printf("%d\n", r.radius);
 	r.mass = ((4/3)*M_PI*(pow(r.radius, 3))) * r.density;
 	
 	//printf("cuberoot(((%f/%f)/((4/3)*%f)))\n", r.mass, r.density, M_PI);

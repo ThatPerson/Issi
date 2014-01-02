@@ -4,8 +4,8 @@
 #define R 695500
 
 typedef struct {
-	float radius;
-	float mass;
+	int radius;
+	long double mass;
 	float density;
 	char name[500];
 	float distance;
@@ -14,8 +14,8 @@ typedef struct {
 } Moon;
 								 
 typedef struct {
-	float radius;
-	float mass;
+	int radius;
+	long double mass;
 	float density;
 	char * desc;
 	char * living;
@@ -25,7 +25,7 @@ typedef struct {
 	float orbit_travelled;
 	Moon moon[3];
 	int moon_number;
-	float total_mass;
+	long double total_mass;
 } Planet;
 
 typedef struct {
@@ -33,8 +33,8 @@ typedef struct {
 	char name[500];
 	int num_planets;
 	int num_moons;
-	float solar_mass;
-	long long total_mass;
+	long double solar_mass;
+	long double total_mass;
 	float radius;
 	int soi;
 } System;

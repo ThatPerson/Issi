@@ -8,14 +8,11 @@
 #include "parsi_module.c"
 #include "calculations.c"
 #include "planet_gen.c"
+#include "output.c"
 
 int main(int argc, char * argv[]) {
 	srand(time(NULL));
-	if (argc == 2) {
-		int count = atoi(argv[1]);
-		systeml = generate_system(count);
-		print_system(systeml);
-
-	}
+	systeml = generate_system(5);
+	tabulate(systeml, 1, 1);
 	return 1;
 }
